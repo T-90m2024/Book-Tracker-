@@ -10,6 +10,6 @@ git commit -m "Initial commit: Book Tracker app"
 
 # Создайте репозиторий на GitHub (без README, .gitignore)
 # Затем свяжите локальный репозиторий с удалённым
-git remote add origin https://github.com/ВАШ_ЛОГИН/book-tracker.git
+git remote add origin https://github.com/T-90m2024/Book-Tracker-.git
 git branch -M main
 git push -u origin main
