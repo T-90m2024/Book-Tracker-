@@ -1,0 +1,15 @@
+# Инициализация репозитория
+git init
+
+# Добавление файлов
+git add book_tracker.py
+git add README.md   # создайте файл README (см. ниже)
+
+# Первый коммит
+git commit -m "Initial commit: Book Tracker app"
+
+# Создайте репозиторий на GitHub (без README, .gitignore)
+# Затем свяжите локальный репозиторий с удалённым
+git remote add origin https://github.com/ВАШ_ЛОГИН/book-tracker.git
+git branch -M main
+git push -u origin main
